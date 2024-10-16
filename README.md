@@ -2,9 +2,12 @@
 RESTful-Web-Services-Complete-Course-java
 # Topic
 
+<a id="top"></a>
+
 # RESTful Web Services - S1
 
 ## [1. Designing RESTful Services](#rest-representational-state-transfer)
+<a id="sectionOne"></a>
 - [REST and the Rebirth of HTTP](#rest-is-an-architectural-style-for-designing)
 - [RESTful Architectural Principles](#restful-architectural-principles)
 - [The Object Model](#the-object-model)
@@ -13,12 +16,14 @@ RESTful-Web-Services-Complete-Course-java
 - [Assigning HTTP Methods](#assigning-http-methods)
 
 ## 2. HTTP Method and URI Matching
+<a id="sectionTwo"></a>
 - Developing a JAX-RS RESTful Service
 - Deploying RESTful Service
 - Binding HTTP Methods
 - Subresource Locators
 
 ## 3. JAX-RS Injection
+<a id="sectionThree"></a>
 - @PathParam
 - @MatrixParam
 - @QueryParam
@@ -28,10 +33,12 @@ RESTful-Web-Services-Complete-Course-java
 - Common Functionality
 
 ## 4. JAX-RS Content Handlers
+<a id="sectionFour"></a>
 - Built-in Content Marshalling - JAXB
 - Custom Marshalling
 
 ## 5. Response Codes, Complex Responses, and Exception Handling
+<a id="sectionFive"></a>
 - Default Response Codes
 - Complex Responses
 - Exception Handling
@@ -125,6 +132,14 @@ The "Rebirth of HTTP" in Java often refers to the adoption and enhancement of RE
 
 The adoption and enhancement of REST in Java have marked a significant shift towards more efficient, scalable, and maintainable web services. This "rebirth" has been driven by advancements in frameworks, libraries, and architectural patterns that have made it easier to develop and deploy RESTful services in Java.
 
+<p align="left">
+  <a href="#sectionOne" style="text-decoration: none;">
+    <button style="padding:7px;background-color:#008CBA;color:white;border:none;border-radius:5px; font-size:12px;">Return to Section</button>
+  </a>
+  <a href="#top" style="text-decoration: none;">
+    <button style="padding:7px;background-color:#04AA6D;color:white;border:none;border-radius:5px;font-size:12px">Return to Top</button>
+  </a>
+</p>
 
 
 # <a id = "restful-architectural-principles">RESTful Architectural Principles</a>
@@ -187,7 +202,14 @@ RESTful architectural principles, as defined by Roy Fielding in his doctoral dis
 
 By adhering to these RESTful principles, developers can create web services that are scalable, reliable, and easy to maintain. These principles ensure a clear separation of concerns, enable independent evolution of client and server, and promote a uniform and stateless interaction model, which are essential for the robust functioning of web services in a distributed environment.
 
-
+<p align="left">
+  <a href="#sectionOne" style="text-decoration: none;">
+    <button style="padding:7px;background-color:#008CBA;color:white;border:none;border-radius:5px; font-size:12px;">Return to Section</button>
+  </a>
+  <a href="#top" style="text-decoration: none;">
+    <button style="padding:7px;background-color:#04AA6D;color:white;border:none;border-radius:5px;font-size:12px">Return to Top</button>
+  </a>
+</p>
 
 # <a id = "the-object-model">Object Model in RESTful Web Services</a>
 
@@ -282,6 +304,15 @@ public class BookController {
 }
 ```
 
+<p align="left">
+  <a href="#sectionOne" style="text-decoration: none;">
+    <button style="padding:7px;background-color:#008CBA;color:white;border:none;border-radius:5px; font-size:12px;">Return to Section</button>
+  </a>
+  <a href="#top" style="text-decoration: none;">
+    <button style="padding:7px;background-color:#04AA6D;color:white;border:none;border-radius:5px;font-size:12px">Return to Top</button>
+  </a>
+</p>
+
 ### <a id="model-the-uris">Example HTTP Requests and Responses</a>
 
 #### GET /api/books
@@ -369,6 +400,14 @@ Response: `204 No Content`
 The object model in RESTful web services revolves around resources, which are typically represented as Java objects. These objects are then exposed through RESTful endpoints using HTTP methods to perform CRUD operations. In Java, frameworks like Spring Boot and JAX-RS facilitate the creation of RESTful services by providing annotations and tools to map Java objects to JSON or XML representations and handle HTTP requests and responses efficiently.
 
 
+<p align="left">
+  <a href="#sectionOne" style="text-decoration: none;">
+    <button style="padding:7px;background-color:#008CBA;color:white;border:none;border-radius:5px; font-size:12px;">Return to Section</button>
+  </a>
+  <a href="#top" style="text-decoration: none;">
+    <button style="padding:7px;background-color:#04AA6D;color:white;border:none;border-radius:5px;font-size:12px">Return to Top</button>
+  </a>
+</p>
 
 
 # <a id="defining-data-formats">Data Formats in RESTful Web Services</a>
@@ -534,7 +573,14 @@ You can test the RESTful web service using tools like Postman or curl. Here are 
 
 Defining the data format is a critical aspect of designing RESTful web services. JSON and XML are the two primary formats used for representing resources. In Java, frameworks like Spring Boot make it straightforward to handle these formats, enabling developers to create robust and flexible RESTful APIs.
 
-
+<p align="left">
+  <a href="#sectionOne" style="text-decoration: none;">
+    <button style="padding:7px;background-color:#008CBA;color:white;border:none;border-radius:5px; font-size:12px;">Return to Section</button>
+  </a>
+  <a href="#top" style="text-decoration: none;">
+    <button style="padding:7px;background-color:#04AA6D;color:white;border:none;border-radius:5px;font-size:12px">Return to Top</button>
+  </a>
+</p>
 
 
 
